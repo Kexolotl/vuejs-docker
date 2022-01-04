@@ -12,6 +12,7 @@ docker-compose up
 docker build -t vuejs-docker .
 docker run -it -d -p 8000:80 --rm vuejs-docker
 ```
+If you don't want this as daemon, forget `-d` param.
 
 ### Stop container
 ```
